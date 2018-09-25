@@ -7,15 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		027A4F8E3E630FD2AB2BEEC6 /* libPods-NWBaseProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD75BF1DFEAD246300C9A0F /* libPods-NWBaseProject.a */; };
 		DB7294002159DFB4005498A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7293FF2159DFB4005498A9 /* AppDelegate.m */; };
 		DB7294032159DFB4005498A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7294022159DFB4005498A9 /* ViewController.m */; };
 		DB7294062159DFB4005498A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB7294042159DFB4005498A9 /* Main.storyboard */; };
 		DB7294082159DFB4005498A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB7294072159DFB4005498A9 /* Assets.xcassets */; };
 		DB72940B2159DFB4005498A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB7294092159DFB4005498A9 /* LaunchScreen.storyboard */; };
 		DB72940E2159DFB4005498A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB72940D2159DFB4005498A9 /* main.m */; };
+		DB72941F2159E19F005498A9 /* NWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB72941A2159E19F005498A9 /* NWViewController.m */; };
+		DB7294202159E19F005498A9 /* NWTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB72941B2159E19F005498A9 /* NWTableViewController.m */; };
+		DB7294212159E19F005498A9 /* NWCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB72941C2159E19F005498A9 /* NWCollectionViewController.m */; };
+		DB7294242159E44C005498A9 /* NWTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7294232159E44C005498A9 /* NWTableView.m */; };
+		DB72942F2159E68B005498A9 /* NWCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB72942C2159E68A005498A9 /* NWCollectionViewCell.m */; };
+		DB7294302159E68B005498A9 /* NWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB72942E2159E68B005498A9 /* NWTableViewCell.m */; };
+		DB729440215A0EA5005498A9 /* NSDictionary+NetWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = DB729438215A0EA4005498A9 /* NSDictionary+NetWorking.m */; };
+		DB729441215A0EA5005498A9 /* AFHTTPSessionManager+Shared.m in Sources */ = {isa = PBXBuildFile; fileRef = DB72943B215A0EA5005498A9 /* AFHTTPSessionManager+Shared.m */; };
+		DB729442215A0EA5005498A9 /* NWNetWorkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DB72943C215A0EA5005498A9 /* NWNetWorkingManager.m */; };
+		DB729443215A0EA5005498A9 /* NWNetWorkingAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = DB72943F215A0EA5005498A9 /* NWNetWorkingAPI.m */; };
+		DB729446215A18F3005498A9 /* NWNetworkGeneralParamters.m in Sources */ = {isa = PBXBuildFile; fileRef = DB729445215A18F3005498A9 /* NWNetworkGeneralParamters.m */; };
+		DB729449215A1BD6005498A9 /* NWNetWorkingUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = DB729448215A1BD6005498A9 /* NWNetWorkingUploader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4068B09EE5F58B17BF605212 /* Pods-NWBaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NWBaseProject.debug.xcconfig"; path = "Target Support Files/Pods-NWBaseProject/Pods-NWBaseProject.debug.xcconfig"; sourceTree = "<group>"; };
+		7BD75BF1DFEAD246300C9A0F /* libPods-NWBaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NWBaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7761CCA3EED2D819C963E69 /* Pods-NWBaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NWBaseProject.release.xcconfig"; path = "Target Support Files/Pods-NWBaseProject/Pods-NWBaseProject.release.xcconfig"; sourceTree = "<group>"; };
 		DB7293FB2159DFB4005498A9 /* NWBaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NWBaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB7293FE2159DFB4005498A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DB7293FF2159DFB4005498A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +42,34 @@
 		DB72940A2159DFB4005498A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB72940C2159DFB4005498A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB72940D2159DFB4005498A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB7294182159E19F005498A9 /* NWRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWRefresh.h; sourceTree = "<group>"; };
+		DB7294192159E19F005498A9 /* NWCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWCollectionViewController.h; sourceTree = "<group>"; };
+		DB72941A2159E19F005498A9 /* NWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWViewController.m; sourceTree = "<group>"; };
+		DB72941B2159E19F005498A9 /* NWTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWTableViewController.m; sourceTree = "<group>"; };
+		DB72941C2159E19F005498A9 /* NWCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWCollectionViewController.m; sourceTree = "<group>"; };
+		DB72941D2159E19F005498A9 /* NWTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWTableViewController.h; sourceTree = "<group>"; };
+		DB72941E2159E19F005498A9 /* NWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWViewController.h; sourceTree = "<group>"; };
+		DB7294222159E44C005498A9 /* NWTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWTableView.h; sourceTree = "<group>"; };
+		DB7294232159E44C005498A9 /* NWTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWTableView.m; sourceTree = "<group>"; };
+		DB72942B2159E68A005498A9 /* NWCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWCollectionViewCell.h; sourceTree = "<group>"; };
+		DB72942C2159E68A005498A9 /* NWCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWCollectionViewCell.m; sourceTree = "<group>"; };
+		DB72942D2159E68A005498A9 /* NWTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWTableViewCell.h; sourceTree = "<group>"; };
+		DB72942E2159E68B005498A9 /* NWTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWTableViewCell.m; sourceTree = "<group>"; };
+		DB7294342159E73C005498A9 /* NWCollectionViewCellDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NWCollectionViewCellDelegate.h; sourceTree = "<group>"; };
+		DB7294352159E73D005498A9 /* NWTableViewCellDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NWTableViewCellDelegate.h; sourceTree = "<group>"; };
+		DB729437215A0EA4005498A9 /* NWNetworkingConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWNetworkingConfig.h; sourceTree = "<group>"; };
+		DB729438215A0EA4005498A9 /* NSDictionary+NetWorking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+NetWorking.m"; sourceTree = "<group>"; };
+		DB729439215A0EA4005498A9 /* NSDictionary+NetWorking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+NetWorking.h"; sourceTree = "<group>"; };
+		DB72943A215A0EA4005498A9 /* NWNetWorkingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWNetWorkingManager.h; sourceTree = "<group>"; };
+		DB72943B215A0EA5005498A9 /* AFHTTPSessionManager+Shared.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPSessionManager+Shared.m"; sourceTree = "<group>"; };
+		DB72943C215A0EA5005498A9 /* NWNetWorkingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWNetWorkingManager.m; sourceTree = "<group>"; };
+		DB72943D215A0EA5005498A9 /* NWNetWorkingAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWNetWorkingAPI.h; sourceTree = "<group>"; };
+		DB72943E215A0EA5005498A9 /* AFHTTPSessionManager+Shared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFHTTPSessionManager+Shared.h"; sourceTree = "<group>"; };
+		DB72943F215A0EA5005498A9 /* NWNetWorkingAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWNetWorkingAPI.m; sourceTree = "<group>"; };
+		DB729444215A18F3005498A9 /* NWNetworkGeneralParamters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NWNetworkGeneralParamters.h; sourceTree = "<group>"; };
+		DB729445215A18F3005498A9 /* NWNetworkGeneralParamters.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NWNetworkGeneralParamters.m; sourceTree = "<group>"; };
+		DB729447215A1BD6005498A9 /* NWNetWorkingUploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWNetWorkingUploader.h; sourceTree = "<group>"; };
+		DB729448215A1BD6005498A9 /* NWNetWorkingUploader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWNetWorkingUploader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +77,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				027A4F8E3E630FD2AB2BEEC6 /* libPods-NWBaseProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3AFBBBD1D0631CF74EAF732B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4068B09EE5F58B17BF605212 /* Pods-NWBaseProject.debug.xcconfig */,
+				A7761CCA3EED2D819C963E69 /* Pods-NWBaseProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		526FDBDE29C77E1F4FE7A8DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BD75BF1DFEAD246300C9A0F /* libPods-NWBaseProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DB7293F22159DFB4005498A9 = {
 			isa = PBXGroup;
 			children = (
+				DB7294142159E19F005498A9 /* Base */,
 				DB7293FD2159DFB4005498A9 /* NWBaseProject */,
 				DB7293FC2159DFB4005498A9 /* Products */,
+				3AFBBBD1D0631CF74EAF732B /* Pods */,
+				526FDBDE29C77E1F4FE7A8DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +136,65 @@
 			path = NWBaseProject;
 			sourceTree = "<group>";
 		};
+		DB7294142159E19F005498A9 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				DB7294152159E19F005498A9 /* Cell */,
+				DB7294162159E19F005498A9 /* API */,
+				DB7294172159E19F005498A9 /* View-Controller */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		DB7294152159E19F005498A9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DB7294342159E73C005498A9 /* NWCollectionViewCellDelegate.h */,
+				DB7294352159E73D005498A9 /* NWTableViewCellDelegate.h */,
+				DB72942B2159E68A005498A9 /* NWCollectionViewCell.h */,
+				DB72942C2159E68A005498A9 /* NWCollectionViewCell.m */,
+				DB72942D2159E68A005498A9 /* NWTableViewCell.h */,
+				DB72942E2159E68B005498A9 /* NWTableViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		DB7294162159E19F005498A9 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				DB729447215A1BD6005498A9 /* NWNetWorkingUploader.h */,
+				DB729448215A1BD6005498A9 /* NWNetWorkingUploader.m */,
+				DB729437215A0EA4005498A9 /* NWNetworkingConfig.h */,
+				DB72943E215A0EA5005498A9 /* AFHTTPSessionManager+Shared.h */,
+				DB72943B215A0EA5005498A9 /* AFHTTPSessionManager+Shared.m */,
+				DB72943D215A0EA5005498A9 /* NWNetWorkingAPI.h */,
+				DB72943F215A0EA5005498A9 /* NWNetWorkingAPI.m */,
+				DB72943A215A0EA4005498A9 /* NWNetWorkingManager.h */,
+				DB72943C215A0EA5005498A9 /* NWNetWorkingManager.m */,
+				DB729439215A0EA4005498A9 /* NSDictionary+NetWorking.h */,
+				DB729438215A0EA4005498A9 /* NSDictionary+NetWorking.m */,
+				DB729444215A18F3005498A9 /* NWNetworkGeneralParamters.h */,
+				DB729445215A18F3005498A9 /* NWNetworkGeneralParamters.m */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		DB7294172159E19F005498A9 /* View-Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DB7294182159E19F005498A9 /* NWRefresh.h */,
+				DB7294222159E44C005498A9 /* NWTableView.h */,
+				DB7294232159E44C005498A9 /* NWTableView.m */,
+				DB7294192159E19F005498A9 /* NWCollectionViewController.h */,
+				DB72941C2159E19F005498A9 /* NWCollectionViewController.m */,
+				DB72941D2159E19F005498A9 /* NWTableViewController.h */,
+				DB72941B2159E19F005498A9 /* NWTableViewController.m */,
+				DB72941E2159E19F005498A9 /* NWViewController.h */,
+				DB72941A2159E19F005498A9 /* NWViewController.m */,
+			);
+			path = "View-Controller";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +202,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB7294112159DFB4005498A9 /* Build configuration list for PBXNativeTarget "NWBaseProject" */;
 			buildPhases = (
+				7EC1389B4EAB39C09D6F0EA6 /* [CP] Check Pods Manifest.lock */,
 				DB7293F72159DFB4005498A9 /* Sources */,
 				DB7293F82159DFB4005498A9 /* Frameworks */,
 				DB7293F92159DFB4005498A9 /* Resources */,
+				F09F046268194A8F7EACB841 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,14 +262,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7EC1389B4EAB39C09D6F0EA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NWBaseProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F09F046268194A8F7EACB841 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NWBaseProject/Pods-NWBaseProject-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NWBaseProject/Pods-NWBaseProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DB7293F72159DFB4005498A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DB7294032159DFB4005498A9 /* ViewController.m in Sources */,
+				DB7294202159E19F005498A9 /* NWTableViewController.m in Sources */,
+				DB72941F2159E19F005498A9 /* NWViewController.m in Sources */,
 				DB72940E2159DFB4005498A9 /* main.m in Sources */,
+				DB7294242159E44C005498A9 /* NWTableView.m in Sources */,
+				DB72942F2159E68B005498A9 /* NWCollectionViewCell.m in Sources */,
+				DB729440215A0EA5005498A9 /* NSDictionary+NetWorking.m in Sources */,
+				DB729441215A0EA5005498A9 /* AFHTTPSessionManager+Shared.m in Sources */,
+				DB729443215A0EA5005498A9 /* NWNetWorkingAPI.m in Sources */,
+				DB729449215A1BD6005498A9 /* NWNetWorkingUploader.m in Sources */,
 				DB7294002159DFB4005498A9 /* AppDelegate.m in Sources */,
+				DB729442215A0EA5005498A9 /* NWNetWorkingManager.m in Sources */,
+				DB7294212159E19F005498A9 /* NWCollectionViewController.m in Sources */,
+				DB729446215A18F3005498A9 /* NWNetworkGeneralParamters.m in Sources */,
+				DB7294302159E68B005498A9 /* NWTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,11 +468,13 @@
 		};
 		DB7294122159DFB4005498A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4068B09EE5F58B17BF605212 /* Pods-NWBaseProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8S4NWFZC5J;
 				INFOPLIST_FILE = NWBaseProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +487,13 @@
 		};
 		DB7294132159DFB4005498A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7761CCA3EED2D819C963E69 /* Pods-NWBaseProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8S4NWFZC5J;
 				INFOPLIST_FILE = NWBaseProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

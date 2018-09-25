@@ -1,0 +1,13 @@
+platform :ios, '8.0'
+#use_frameworks!个需要用到它，比如reactiveCocoa
+inhibit_all_warnings!
+
+target 'NWBaseProject' do
+  pod 'RITLKit'
+  pod 'AFNetworking'
+  pod 'SDWebImage'
+  pod 'MJRefresh'
+  pod 'UIDeviceIdentifier'
+end
+
+
