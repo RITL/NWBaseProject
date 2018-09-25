@@ -70,6 +70,7 @@
 		DB729445215A18F3005498A9 /* NWNetworkGeneralParamters.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NWNetworkGeneralParamters.m; sourceTree = "<group>"; };
 		DB729447215A1BD6005498A9 /* NWNetWorkingUploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWNetWorkingUploader.h; sourceTree = "<group>"; };
 		DB729448215A1BD6005498A9 /* NWNetWorkingUploader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWNetWorkingUploader.m; sourceTree = "<group>"; };
+		DB72944A215A1E3B005498A9 /* NWBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NWBase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,9 +140,10 @@
 		DB7294142159E19F005498A9 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				DB72944A215A1E3B005498A9 /* NWBase.h */,
 				DB7294152159E19F005498A9 /* Cell */,
 				DB7294162159E19F005498A9 /* API */,
-				DB7294172159E19F005498A9 /* View-Controller */,
+				DB7294172159E19F005498A9 /* View_Controller */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -179,7 +181,7 @@
 			path = API;
 			sourceTree = "<group>";
 		};
-		DB7294172159E19F005498A9 /* View-Controller */ = {
+		DB7294172159E19F005498A9 /* View_Controller */ = {
 			isa = PBXGroup;
 			children = (
 				DB7294182159E19F005498A9 /* NWRefresh.h */,
@@ -192,7 +194,7 @@
 				DB72941E2159E19F005498A9 /* NWViewController.h */,
 				DB72941A2159E19F005498A9 /* NWViewController.m */,
 			);
-			path = "View-Controller";
+			path = View_Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
