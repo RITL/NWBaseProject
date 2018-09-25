@@ -18,18 +18,19 @@ Pod::Spec.new do |s|
   s.dependency 'Masonry'
   s.dependency 'SDWebImage'
   s.dependency 'UIDeviceIdentifier'
+  s.dependency 'MJRefresh'
 
 
   s.subspec 'Cell' do |ss|
-    ss.source_files = 'RITLPhotos/RITLConfig/*.{h,m}'
+    ss.source_files = 'Base/Cell/*.{h,m}'
   end
 
   s.subspec 'API' do |ss|
-    ss.source_files = 'RITLPhotos/Protocol/*.{h,m}'
+    ss.source_files = 'Base/API/*.{h,m}'
   end
 
   s.subspec 'View_Controller' do |ss|
-    ss.source_files = 'RITLPhotos/RITLPhotosCategory/*.{h,m}'
+    ss.source_files = 'Base/View_Controller/*.{h,m}'
   end
 
 end

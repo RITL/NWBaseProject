@@ -10,16 +10,19 @@
 #define NWBase_h
 
 #pragma mark - Cell
-#import "NWCollectionViewCell.h"
+
 #import "NWTableViewCell.h"
+#import "NWCollectionViewCell.h"
 
 #pragma mark - API
+
 #import "NWNetWorkingUploader.h"
 #import "NWNetWorkingManager.h"
 #import "NWNetworkGeneralParamters.h"
 #import "AFHTTPSessionManager+Shared.h"
 
 #pragma mark - View_Controller
+
 #import "NWTableViewController.h"
 #import "NWViewController.h"
 #import "NWCollectionViewController.h"

@@ -8,7 +8,7 @@
 
 #import "NWViewController.h"
 #import "NWRefresh.h"
-#import <MJRefresh.h>
+#import <MJRefresh/MJRefresh.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
