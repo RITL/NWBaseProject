@@ -9,7 +9,7 @@
 #import "NWNetWorkingManager.h"
 #import "AFHTTPSessionManager+Shared.h"
 #import "NSDictionary+NetWorking.h"
-#import <RITLKit.h>
+#import <RITLKit/RITLKit.h>
 
 @implementation NWNetWorkingManager
 
